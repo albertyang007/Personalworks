@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" /> 
+<title>Glad Pay</title> 
+<style type="text/css"> 
+*{margin:0px; 
+padding:0px; 
+} 
+#tophalf
+{
+	top:10px;
+	position:relative;
+	margin:0px auto;
+	width:957px; 
+	height:670px; 
+	background:url(images/sf-index.png) no-repeat top; 
+	margin:0px auto; 
+}
+#submit
+{
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:500px;
+	height:50px;
+} 
+#submit_button
+{
+	position:relative;
+	width:65px;
+	height:20px;
+	float:left;
+	left:10px;
+}
+#search
+{
+	position:absolute;
+	top:528px;
+	left:40px;
+	width:800px;
+	height:50px;
+	background:#008000 url(images/search.png) no-repeat right;
+	color:#FFCC00;
+	font:large icon Verdana, Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-style:oblique;
+}
+#sebutton
+{
+	position:absolute;
+	bottom:100px;
+	left:860px;
+	width:100px;
+	height:30px;
+}
+#look
+{
+	position:relative;
+	top:0px;
+	margin:0px auto;
+	width:200px;
+	height:100px;
+}
+
+
+</style></head> 
+<body bgcolor="#000000"> 
+<div id="tophalf"> 
+		<input id="search" name="search" type="text" size="100" />
+		<a id="sebutton" href="result.html"><img src="images/sebutton.png"></a>
+</div>
+ 
+<div id="submit">
+	<label for="username"><strong style="color:#008000; width:80px; float:left;">User Name</strong></label>
+    <input name="username" type="text" size="17" style="float:left;"/>
+    <label for="password"><strong style="color:#008000; width:75px; float:left; left:7px;">Password</strong></label>
+    <input name="password" type="password" size="17" style="float:left;" /> 
+	<a id="submit_button" href="#"><img src="images/login.png"></a>
+</div>
+<div id="look">
+	<ul>
+		<li style="font-style:oblique; font-size:24px; margin:auto; color:#008000;"> Have no idea? </li>
+		<li><a style="height:56px;" href="result.html"><img src="images/look.png"></a></li>
+	</ul>
+</div>
+
+
+</body> 
+</html> 
